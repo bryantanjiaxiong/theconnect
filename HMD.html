@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Vignettes</title>
+	<style>
+		.box {height:18px; width:18px; margin-bottom: 30px; border: 3px grey groove; border-radius: 0.5em; transition: all 2s ease-in-out; display: inline-block; overflow: hidden; color: white;}
+		.boxPrompt {height:18px; width:18px; margin-bottom: 30px; border: 3px grey groove; border-radius: 0.5em; transition: all 2s ease-in-out; display: inline-block; overflow: hidden; color: white; animation: blinkBox 1s ease infinite alternate;}
+		
+		.boxRepeat {height:18px; width:18px; margin-bottom: 30px; border: 3px grey groove; border-radius: 0.5em; transition: all 2s ease-in-out; overflow: hidden; color: white;}
+		.boxRepeatPrompt {height:18px; width:18px; margin-bottom: 30px; border: 3px grey groove; border-radius: 0.5em; transition: all 2s ease-in-out; overflow: hidden; color: white; animation: blinkBox 1s ease infinite alternate;}
+		
+		.boxPullPrompt {height:18px; width:18px; margin-bottom: 30px; border: 3px grey groove; border-radius: 0.5em; transition: all 2s ease-in-out; display: inline-block; overflow: hidden; color: white; animation: blinkPull 1s ease infinite alternate;}
+		.boxPushPrompt {height:18px; width:18px; margin-bottom: 30px; border: 3px grey groove; border-radius: 0.5em; transition: all 2s ease-in-out; display: inline-block; overflow: hidden; color: white; animation: blinkPush 1s ease infinite alternate;}
+		
+		a {text-decoration: none;}
+		 
+		@keyframes blinkBlack { 
+							   50% { background-color: black; color: white;} 
+							}
+		.blinkingBlack:hover { 
+								animation: blinkBlack 0.66s ease-in-out;
+							}
+							
+		@keyframes blinkBox { 
+							   50% { border-color: white; } 
+							}
+		@keyframes blinkPull { 
+							   50% { border-color: red; color: red; } 
+							}
+		@keyframes blinkPush { 
+							   50% { border-color: blue; } 
+							}							
+	</style>
+</head>
+<body class="blinkingBlack" style="background-color: black; border: 2px white groove; max-width: 1500px;">
+
+	<header align="center" style="margin-bottom: 30px;">
+		<h1 style="font-size: 50px; text-shadow: -1px -1px 0px #EFF3F3, 1px -1px 0px #EFF3F3, -1px 1px 0px #EFF3F3, 1px 1px 0px #EFF3F3; margin-bottom: 0px;">To Mommy and Papa</h1>
+		<h3 style="margin-top: 0px; text-shadow: -1px -1px 0px #EFF3F3, 1px -1px 0px #EFF3F3, -1px 1px 0px #EFF3F3, 1px 1px 0px #EFF3F3;">2021</h3>
+	</header>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 36%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(1)"></div>
+			
+		<div class="box" id="expander[1]"  style="background-color: black;">
+		
+			<p id="readIn[1]">
+				After months of procrastination and times after times of life-draining setbacks, I feel relieved to finally present this. It is simply a collection of short messages I have written to express myself to my parents, an act that I assume they dearly wish me to perform if not my lack of cooperation whenever they approach me to talk things out. I mean you, of course, my parents. No one else is seeing this, though they could, if you want to. It does not matter very much to me; I only care that you read this list of stuff in your own time. It is not actually done yet; after all, my mind never stops running; I might come up with more to say later on, which is one of the reasons why this took so long to be completed; I kept thinking that I have more to say, and I have much more. So much more. But I think this should suffice for now. The topics discussed might jump around a lot, and some of them might be elaborated and even droningly repetitive, but I believe that a collected mess is better than any something being accidentally left out. Well, alright, read on then.
+			</p>
+									
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 54%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(2)"></div>
+			
+		<div class="box" id="expander[2]">
+			<p id="readIn[2]">
+				I know, it is not a very hidden reality. It must be miserable to wake up every day just to tend to my insanity, watching helplessly as my behaviour worsen to a bizarre degree. It must be so exhausting to accommodate my ever-intensifying rituals. Children of my age would have been trusted with house-chores like cleaning and cooking and providing transport. Simple stuff, really, and it is not only shameful but even devastatingly disappointing that I am nothing like them. Not even close. As I continue being such a burden, I continue facing this fact, as if just being aware is enough to pull myself through this situation. I wonder if I could ever live up to my role or maybe even cut an inch to redeeming myself. A little bit is no longer enough, and I cannot even do that little bit. This indelible understanding constantly pains me, and I cannot imagine how it is paining my parents. I do not want to imagine, actually, so I run.
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 43%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(3)"></div>
+			
+		<div class="box" id="expander[3]">
+			<p id="readIn[3]">	
+				I did not know how I kept adding onto my daily rituals. I could easily try to refer to my diary and decipher this compounding mystery, to unchain how it all happened, yet I am fearful of re-experiencing my past. Though every night I write in it, I have no courage to look back. Silly, and quite counter-productive to the purpose of diary-ing. No courage yet, and maybe not in a very long time, even longer still if I continue letting things be what they are. I do not want to become even worse, but the situations keep getting difficult, new obstacles keep popping up, and time is getting ever more uncooperative. It is so tiring to even contemplate this, more so than going through it. At rest, after my rituals, when I properly have time for contemplation, I would prefer to escape into reading or watching history videos or playing games, running away from any solution, letting things be what they are. Silly, and quite counter-productive to the purpose of living.
+			</p>
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 32%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(4)"></div>
+			
+		<div class="box" id="expander[4]">
+			<p id="readIn[4]">	
+				I have been having plenty of good meals since returning from abroad. I miss those days when I had the luxury to be more well-behaved, with my rituals less intense and my interactions with the family more frequent and genuine. In that recent past, I would properly give thanks to the food and its preparers. Now however, with my temper so often flaring, with meals delivered to my table as if I am a handicapped estate owner, with my plans of the future so murky, it is extremely difficult to muster the courage to say my thanks. Imagine that. Such a simple gesture – to be grateful – so difficult for someone who is responsible for constantly wrecking the once-so-blissful atmosphere. It is even harder to apologise, knowing that I would not be repairing the situation at all. Not even a little bit. I no longer have the luxury to casually display gratitude or claim my wrongs, because what have I become? A shadowy husk of my former life.
+			</p>
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 21%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(5)"></div>
+			
+		<div class="box" id="expander[5]">
+			<p id="readIn[5]">	
+				I am often amazed by my parents’ confidence in me, that despite the mental hardships I am facing, I would choose to remain sane and continue living. No doubt, you worry if I might one day lose myself to a sudden anxiety, yet you choose to believe that I would decide to persist and persevere. It is not like persistence and perseverance is at all useful when I am facing an unnecessary mindless struggle, but that is beside the point. What makes you so confident? What lessens your worries? Is it my personality? My ambitions to repay my debts, perhaps? Or maybe you are trying not to think about it at all, running away from these thoughts just like I am doing in my own head? No matter. It is fascinatingly admirable, your belief that your eldest son will not do anything stupid. And I appreciate that. But you might still wonder about the reason I constantly decide to live on. Procrastination perhaps. Maybe a hope that things could just be better when the morrow comes. I want to find out if I could justify all the misery that you have faced for me, if I could make the pain worth it in the end. Yes, exactly, to simplify it all: My ambitions to repay my debts.
+			</p>
+		</div>
+	</div>
+		
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="margin-left: 160px;">
+		<div class="boxRepeatPrompt" onclick="expandMultiple(6,4)"></div>
+			
+		<div class="boxRepeat" id="expander[6][0]">
+			<p id="readIn[6][0]">
+				I did not actually want to celebrate my 21st birthday. Everything got so twisted and displaced, disarrayed by my self-centred behaviour. I did not think that I deserve a celebration, and more than that: I truly did not want one. But I procrastinated informing you of this due to the blazing knowledge that my decision would sadden you, and that understanding made me hesitate to even go through with my plan at all. So I went with the flow, as time has already told. It was not a very pleasant event to usher in the phase of youth for your eldest child, to be sure, since said eldest child is still a mess in every way. The song was sung in empty happiness and hazy cheer, all of us trying to pretend to fit in the mood just to live up to the tradition of birthdays. I understand then, the pain that I have caused. Yet, I do not believe that I understand enough of that yet, since I also understand one other thing: that I can do less than nothing to remedy this situation. Looking at how other parents are celebrating the birthdays of their respective children…Well, that is a topic for some other box. This one is getting too filled anyway.
+			</p>						
+		</div>	
+		<div class="boxRepeat" id="expander[6][1]">
+			<p id="readIn[6][1]">
+				Since a few years ago, I have dreaded the month of April, for to enter it would mean going through my birthday again. I would have to bear the pain of still being the pain I was the previous year and maybe even worse than that. I would have to watch helplessly as the people around me try to cheer me up for such an important day. Maybe it is for them that I continue allowing myself to celebrate my birthday, maybe they need to console themselves that it has all been worth it. To me, the day only raised a single question: Am I really happy to be born into this world, and if I am not, am I really sad to still be living? Burdened with the guilt of privileges I have taken for granted and the pain of comfort I am not properly appreciating, with so much to prove yet so little to show for, there is only so much my mind can take. And so I continue running, pauselessly running to the next year when I have to dread the month of April again, the month of reflection, the month of regrets, the month of failure, the month of acceptance, the month of despair, wondering if I could one day turn it over. Who bloody knows? Bloody time. Bloody time.
+			</p>						
+		</div>	
+		<div class="boxRepeat" id="expander[6][2]">
+			<p id="readIn[6][2]">
+				What would I be celebrating? Being born into a perfect family with a privileged upbringing and still turning out to be a burden that is sagging heavier day by day? Losing my progress in all the paths that I have taken because I got drunk with my idleness and inactivity and mental unnecessities? What would you be celebrating save for the one fact that you manage to keep me alive for one more year, even as I decay? Celebrating my worth was worth the trouble and gestures and wishes a few years ago, but not anymore, because I took that from you; but I am convincing myself that I am trying, living on for the next year when I could make it a little bit different and better. For a perfect family we could be if not for my existence, to lose the chance to be perfect is a huge error on my part, and to repair all of it, you have no choice but to wait. Wait for me to return what I took, this imperfection that I placed, this imperfection that is me. What else can we do?
+			</p>						
+		</div>
+		<div class="boxRepeat" id="expander[6][3]">
+			<p id="readIn[6][3]">
+				Do not lie to yourself. Admit that you are unlucky to have me become what I am today. Admit that you feel hopeless looking at me every day. Admit that I am the single enormous flaw this family has. Admit that I do not have as much potential as everyone used to think I have. Admit that you are tired of me. Admit that you prefer some other person to be your child. Admit that you think about these impulsive thoughts. Admit it even if it is accidental. Admit it even if you think you should not. Admit that you would wish for me to one day become someone else entirely, if wishes could come true. Admit it. Think about it: no more fussing and no more shouting and no more stressing, an actually useful and helpful son, a role model for your younger children, a well-bred who has realistic plans for the future, a worthy investment. Admit it. Sounds grand, does it not? Do not lie to yourself. Come up to me and tell me the truth, admit it to my face with absolute certainty and without hesitation. No, actually, do not do that. It would be pretty weird. Just do not disagree. Do not tell me the lie, even if you think it is not a lie. Do not disagree, because if you do you would be lying. And no, do not act up; you do not need to come to me and deny it. Sit back down and continue reading. Face the truth: I am not like anyone else; I am a risky venture; I am a bold plan; I am a pain in the bloody neck; but I might make it worth it. Might. Face the possibility, and the lack thereof. We have no other choice. It must be worth it. It must be.
+			</p>						
+		</div>	
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 55%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[7]" style="margin-left: auto;">			
+			<p id="readIn[7]">	
+				It is as if I am living through every single day by borrowed time, paying the gods with hours in the shower for a few hours of rest when I finally escape my anxiety for the day. A daily instalment. A debt that I must repay so that I can continue living. Yet I am not the only one paying. My mother and my father are in pain, and even as they age they have to tend to their eldest son, sick in his bloody mind. Do I not have to leave to relieve you of myself? I have grown spoilt once more, and only suffering in loneliness and discomfort can I regain my insight. I need to recharge my sorrow, a one-time payment to the gods for a few months of enjoyment and mental ease. Just like Ireland. I came back too soon, and now I need to start all over again, to get back my understanding of what my privileges truly are. I should not have let things come to this, but there is no other way now. My life is defined by regrets, a temporary one is at least a miracle in itself, a lesson for the ages.
+			</p>
+		</div>
+
+		<div class="boxPrompt" onclick="expand(7)"></div>
+	</div>
+		
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 66%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[8]" style="margin-left: auto;">
+			<p id="readIn[8]">	
+				The rituals are lengthening, the requirements to get through each bloody day intensifying. The ants, the curtain, the window, the bathroom door, the bathroom door handle, disposable nail cutters, daily wiping of the table, constant changes of bedsheets, disposable toothbrushes, the leaking water through the glass, the wall, the windowpanes, and so bloody on. It will keep growing; as I continue feeding my anxiety, trying to find a spot to be comfortable, I endlessly discover new discomforts that I cannot ignore any longer. I need to go somewhere and find difficulty again, to find chaos and disorder, to find somewhere far away from my comfort zone such that it is safe enough to create imbalance and disharmony, to find rehabilitation. I need to rediscover humility and discipline. I need to rediscover myself. I am definitely not thrilled for this idea; it sounds like a lot of bloody work and adapting and misery and suffering, but things will only get worse now. I need something to hold onto; if I should stop running, I should jump into chaos and rebuild myself from there. I do not know, maybe…
+			</p>						
+		</div>
+			
+		<div class="boxPrompt" onclick="expand(8)"></div>
+	</div>
+		
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 77%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px; margin-bottom: 100px;">
+		<div class="box" id="expander[9]" style="margin-left: auto;">
+			<p id="readIn[9]">	
+				I need to go on another long trip. The picture of a high mountain and another of a farming village keep popping into my mind, but the sound of a ship whistling on the high tides is even more magnetic. An unknown height of difficulty and exhaustion in the same package as an adventure; a journey in search of discipline and perseverance and appreciation and regrets. It is a very bad idea, but it is definitely not worse that the notion of continuing as I am right now. No, I need to suffer something else, something that not many are facing, something different, but also something productive and educational, something that can change my mental structure. Something that is appropriately dangerous, something to test my luck, something to see if the Heavens truly need me in this bloody world, something to enhance my heart and mind and soul, something that is not truly bad if given enough of a chance, something that I would immediately regret going for but have no turning back from. To jump into chaos and then climb back out, just like I did before but better. This time it just might last, if not forever than at least a little bit longer. I will procrastinate this foolhardy plan, no doubt, but Destiny will arrive for me sooner or later with some choice or another. I need to make this one count, or I do not know how else my life could go on, how else I could get better.
+			</p>						
+		</div>
+			
+		<div class="boxPrompt" onclick="expand(9)"></div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 80%; margin-left: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 12px;">
+		<div class="boxPushPrompt" onmouseover="expand(10)" onmouseout="contract(10, 'black')" style="border: 5px grey groove"></div>
+		
+		<div class="box" id="expander[10]" style="margin-right: auto; border: 5px grey groove">
+			<p id="readIn[10]">
+				What if the Heavens allow me a year-long dream of losing my privileges of functioning limbs and organs and senses? A year-long nightmare? Would I find myself then? Would I know myself then? Would I understand? Would I be more appreciative? Would I be cured of this unnecessary self-inflicted misery? Would I be spending all my time in that dream pondering on how I would do things differently should the dream end? All my plans, all my ambitions, they require functioning limbs and organs and senses, they require a healthy mind that facilitates understanding and creativity. I have them now, and yet I linger in this limbo, straining against invisible obstacles, taking for granted my gifts and blessings. Don’t I need to be taught a lesson? But most lessons require dire consequences, and I do not at all wish for any of those. I need a temporary measure, a short-term despair, a simulated experience: a year-long dream.
+			</p>
+		</div>		
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 60%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[11]" style="margin-left: auto; border: 5px grey groove">
+			<p id="readIn[11]">
+				What if the Heavens take me into another reality where I have lost everything, or maybe they could just send me into a future where the consequences of my current lifestyle would be in full light? Judging by the path I am currently heading down, I fear that I might just arrive in the complete decimation of my everything in no time at all. If the Heavens could just send me into a realistic simulation of loneliness, desperation, misery and deprivation, perhaps I could return to my real world a new man, a better man. Maybe I would be like those kids in the movies, running out of their rooms to hug everyone, thankful that they got out of their hellish nightmares and back into the embrace of a warm home, promising that they will properly appreciate everything and everyone they have this time. Those accidental time-travellers, those innocent dream-drifters. Imagine being surprised if one day I just suddenly changed, my mental instability gone once and for all. Maybe it would be because I was sent into such a dream. Alas, the Heavens have their plans, and this possibility is just not one of them.
+			</p>
+		</div>	
+		
+		<div class="boxPushPrompt" onmouseover="expand(11)" onmouseout="contract(11, 'black')" style="border: 5px grey groove"></div>		
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 60%; margin-left: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 12px; margin-bottom: 100px;">
+		<div class="boxPushPrompt" onmouseover="expand(12)" onmouseout="contract(12, 'black')" style="border: 5px grey groove"></div>
+		
+		<div class="box" id="expander[12]" style="margin-right: auto; border: 5px grey groove">
+			<p id="readIn[12]">
+				What if one day I am suddenly transformed into a sentient robot, forsaking this weak and irritating and high-maintenance human body? I would bid farewell to showers, for no longer would there be any need to visit the toilet or to wash off the day’s sweat and oil. I would bid good riddance to sleeping, such an unnecessary sacrifice of time that makes me risk so much more when I do wake up the next morning; I would have so much more time added to my potential for productivity. It would be a distress for me to not be able to taste the cooking of my mother and my grandparents, but it would also mean that no more food could accumulate in my stomach! That would be such a grand boon indeed. The idea of it is so nice to daydream about that I can almost believe it is already true. Alas, it is anything but so, and tomorrow, and every other morrow that will come, I will have to face what every human must, and yet I could not do these things as good as the others can. Heavens’ bloody Hells. Will there be any end to this farce?
+			</p>
+		</div>		
+	</div>
+		
+	<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 43%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(13)"></div>
+			
+		<div class="box" id="expander[13]">
+			<p id="readIn[13]">
+				Scrolling through social media and seeing your friends boasting of the wonderful achievements of their wonderful children, I often wonder what you might be feeling inside. Envy? Mightily understandable. Regret? But I am not really your fault. Acceptance? I cannot relate. Because when I fix my gaze upon their proud and happy faces, my mind whirls and thrashes with the overbearing knowledge that I have robbed you of this luxury: to be proud of your eldest son, to be able to boast to the world of this eldest son, to list out this eldest son’s achievements for everyone to see and hear their claps and cheers. No, you are unable to do that amidst the swarm of photos your friends are sharing of their marvellous children. I can excuse myself by pushing such a responsibility and such expectations onto my siblings, but that is but a temporary cure, if it is a cure at all. One day, should I persist in drowning in my insanity, everyone would know of your misfortune. So close, don’t you think? I have everything prepared for me, to lead me to a good life, yet how did I turn out to be what I am now? So close.
+			</p>
+		</div>
+	</div>
+		
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 73%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(14)"></div>
+			
+		<div class="box" id="expander[14]">
+			<p id="readIn[14]">
+				Loving parents, understanding siblings, a luxurious house, guaranteed meals, all-in-all a wonderful home; trustworthy friends, a good school, extensive exposure to skills and hobbies outside of academic studies, a cooperative schedule that has space for relaxation, all-in-all an ideal upbringing. What, exactly, went wrong? I was so very close to being the perfect child, the perfect sibling, the perfect person, all agree. Every foundation has been laid grandly, every preparation fulfilled, every requirement satisfied, so what, exactly, went amiss? Ambition, diligence, curiosity, rationality, empathy…the list goes on and on, and my personality comprises all of them. Spectacular traits, these are. It is such a lucky combination too, so many characteristics at once, imagine, a privilege not granted to many; they were meant to push me forward, to be a good person. What happened? How is anxiety reigning on top of all those traits? So close. Is that the summary of my life, that I was so close to being the source of everyone’s pride and joy? So close, so saddeningly close.
+			</p>
+		</div>
+	</div>
+		
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 77%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[15]" style="margin-left: auto;">
+			<p id="readIn[15]">
+				It is quite a pity. Tell anyone and they will feel pity; ask them again and they will tell you what a pity it truly is. You might not have the chance to celebrate my graduation with a smile like your friends are doing for their children. I ruined the last one anyway. Oh yes, I remember that day, such a pity indeed. The children of your friends, sailing off to independence with survival skills and accomplishments to boot, wearing such a bright pride on their smiles. You lost that luxury because I am not like them; I want something different, and I am also afflicted with something very different. You do not have the luxury of assuring me that I will succeed, because that would be a lie. Naturally, you cannot be certain that I would fail as well, because who knows? So what do I want to hear? Honestly, I am not really sure myself. I just know that I am guilty of taking away from you those little luxuries I mentioned. You see, most children do not appreciate that they are good children, that their parents do not need to worry. They themselves are not aware that they are doing well, and I myself can only envy them. So close. What did I miss? What have I made you miss? So, so close.
+			</p>
+		</div>
+		
+		<div class="boxPrompt" onclick="expand(15)"></div>
+	</div>
+		
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 57%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[16]" style="margin-left: auto;">
+			<p id="readIn[16]">
+				But I wonder how your conversations with your friends might go if I am brought up as a topic. What might you say? Ha! What might they say? What might they ask? Painful questions with painful answers, and you can only ask them back and helplessly envy them when they speak oh-so-proudly about their overachieving sons and daughters. You have nothing to boast about, nothing concerning me. The only two topics you can bring in to save your faces are the responsible attitude that your younger son has towards his life and the very remarkable talents your daughter has. Thank goodness you have them. Selfishly, I am thankful to have them as my siblings, so my guilt of being a wrecked failure is lessened. And I am already guilty of so much already! Well, more is the pity, is it not? ‘If only your son was not faced with such an obstacle’. But alas! So, so, so, so, so very close indeed. So close it is that it is now very bloody far away.
+			</p>
+		</div>
+		
+		<div class="boxPrompt" onclick="expand(16)"></div>
+	</div>
+		
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 27%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px; margin-bottom: 100px;">
+		<div class="boxPrompt" onclick="expand(17)"></div>
+			
+		<div class="box" id="expander[17]">
+			<p id="readIn[17]">
+				With all my privileges, what in the world am I doing? Why am I granted the luxuries of life when I am so very undeserving of them? Put the less fortunate in my shoes, he or she who has not slept in a proper bed for years on end, who has to beg their gods just to pass the day without hunger, who has to shiver in the cold of night without the comfort of clothing and footwear, who can only emptily long for the embrace of a loved one, who can only run as bullets and missiles sing in the air, who can only fill their mind with thoughts about surviving the next day, and so on. Give any of them my life, and what would they do? So much more. They would be utilising this great opportunity to achieve great things. But what am I doing? What would they think of me if any of them knew? Unworthy. Disgraceful. Spoilt. But I still do want to keep these privileges. However, the question stands mercilessly: what am I doing?
+			</p>
+		</div>
+	</div>
+		
+	<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="margin-left: 360px; margin-bottom: 200px;">
+		<div class="boxRepeatPrompt" onclick="expandMultiple(18,3)"></div>
+			
+		<div class="boxRepeat" id="expander[18][0]">
+			<p id="readIn[18][0]">
+				Do I wish to disappear from everyone’s lives as well as my own? What if, if I could bring myself to wish it, the gods would make it so? Then no one would remember me, no one would be affected by my mental state, no one would need to worry about me. No one would ask me questions, and I do not need to come up with answers. I would not need to be tortured by empty days that are only filled with pointless rituals which I still knowingly comply with. A single snap and all memory of me would vanish, every trail and every trace; my entire existence. Would I want that? Would the people who love me want that, my family and friends? Doubtless they would be horrified when asked such a ridiculous question, yet they would never know if the wish is granted. What a burden the act would surely lift; this no one can deny no matter how hard they try to lie. Is it still considered irresponsible and selfish then, since, after all, I would not be leaving any kind of damage behind? I would not be leaving anything; I would simply not <b><i>be</i></b>. 
+			</p>						
+		</div>	
+		<div class="boxRepeat" id="expander[18][1]">
+			<p id="readIn[18][1]">
+				Yet I stand before this wish, hesitant and reluctant, because there are still things I want to fulfil. Who knows if anyone else could accomplish what I wish to accomplish? Who knows if I could take care of the people I care about? Do I have the duty of living on then, to exist, even when I am crippled with these invisible senseless obstacles, these illusions that I have convinced myself to obey? These sufferings might not last forever – a great emphasis on ‘<b><i>might</i></b>’ – but I can only wait to find out. To live on, I guess. I have no other choice. I want to know if I could do right by the people in my life. Would time grant me what I want? After all, time has a habit of taking its own bloody time. How much longer should I wait? Would it all be worth it? Could I become someone worthy of pride or would I truly end up as nothing? I want to find out; I need to satisfy this curiosity. So I have no other choice but to live on, I guess, to see if I could achieve my ambitions of repaying my debts. But is this selfish too, this decision to continue letting the people around me suffer my existence, just because I believe that I could change, that I could one day be better, that I could eventually make their sufferings worth it a hundred times over, that I could justify my existence? Who knows? Only time can tell, and oh, time is always such a pain. But I have no other choice, do I? I want to know. 
+			</p>						
+		</div>	
+		<div class="boxRepeat" id="expander[18][2]">
+			<p id="readIn[18][2]">
+				Is that why I am waiting so idly now, stuck in time, frozen in my mind as I struggle to run and run and run away? Away from what? It does not really matter, or maybe it does. Yet I am afraid I do not know the answers to any of these questions; I cannot even count the number of questions I just asked myself, but count them if you so wish. But I know I am tired, tired of looking backward and seeing nothing, tired of looking forward and seeing nothing, tired of watching my family being tired because of me, tired of doing nothing to solve those lurking problems, tired of making things even worse, tired of being tired of what I am tired of. I want to run away. From what, though? And by waiting? Is that even running? Who knows? Only time can tell. Bloody time. I am so bloody tired of time. But I do so want to know so very badly. Is that why I am waiting? What if disappearing is a better option after all? But if I do disappear, I would not get to know the ending of my story. Is it selfish then, to wait, to exist? Pointless questions about pointless time wasted on pointless thinking, but still better than pointless waiting. Yet I am here: pointlessly waiting.
+			</p>						
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 70%; margin-left: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 12px; margin-bottom: 200px;">
+		<div class="boxPushPrompt" onmouseover="expand(19)" onmouseout="contract(19, 'black')" style="border: 5px grey groove"></div>
+		
+		<div class="box" id="expander[19]" style="margin-right: auto; border: 5px grey groove">
+			<p id="readIn[19]">
+				One of my goals is to discuss about everything there is to discuss with my family, about memories and about the future, about recent happenings and upcoming events, about legends and stories and articles. If only I was quicker to realise my descent into utter dysfunction and not procrastinate contemplating solutions, we could have had interesting and heartfelt and meaningful conversations. Alas, I am now shut in my sphere of ignorance, stuck in time, able to only look back with regret as my imagination tries to grasp at things I could have had. I imagined I would return from abroad a changed son that would bring bright moments into the lives of the ones I care about, ensuring that all that could be said is said so that we could achieve the ultimate understanding. I imagined that I-then-we could fight the concept that there would always be gaps between generations, that not everything can be delivered and resolved. But I made it worse. I made everything worse. How did I end up here? I know how; I know, of course I know. But still, the question remains: How did I, through the days that has passed me by, decide to do absolutely nothing to resist insanity and allow myself to bring everything to such a shape? How could I? It is so strange. So bloody close.
+			</p>
+		</div>	
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 90%; margin-left: auto; display: grid; grid-template-columns: 600px 600px; grid-column-gap: 20px; margin-bottom: 100px;">
+	
+		<div align="right">
+			<div class="box" style="border: 5px grey groove;" id="expander[20]">
+				<p id="readIn[20]">
+					Doubtless that you look at them with envy, them with their accomplished golden children that are more than ready to leave the nest without any worry, behind their minds baskets of good memories of reminiscent times spent having fun with their family. Do you wonder if you have failed by me, this fact that time constantly reminds you? Will I somehow turn out to be a great son at the end, finally after all your hardships proving that it was all worth it? Or will I fail and prove your efforts worthless? You may believe that your responsibility to me is to simply shower me with love and the resources needed for my survival, and that just fulfilling that is sufficient for your heart and soul. But you see, I want so much more, and I do not want to keep taking, but everything is so far away, and every day pulls me back farther as if I am being dragged by the weight of the world. Yet my obstacles are almost nothing if only it could just be nothing. So close, I keep repeating, am I not? So close to glory. I have to face this fact again and again as I run away from it again and again.
+				</p>
+			</div>
+			
+			<div class="boxPullPrompt" style="border: 5px grey groove; text-align: center;" onmouseover="expand(20)" onmouseout="contract(20, 'black')">⇩</div>
+		</div>
+		
+		<div align="right">
+			<div class="box" style="border: 5px grey groove;" id="expander[21]">
+				<p id="readIn[21]">
+					Is there any kind of light ahead that I can pull towards me, towards us? Do you continue being made miserable by me with that possibility in mind, that I can change for the better and become reliable and independent and successful and worthy? I often wonder if I am truly living on for that light too. Everything else is so dim that I am constantly wishing for something brighter such that I instead end up falling deeper into the dark abyss. I want too much, while being too less. Is that not pathetic? One would work in earnest if one comes up with such a thought, striving diligently with peak discipline to achieve the ideal goal. But no, I instead persist in this meaningless mental struggle that is doing nothing other than allowing me to continue waiting for the immediate next day when I must persist through the same thing over and over again. It makes no sense at all, does it? Especially when you regard all the great impossibly difficult things I want to achieve, and yet here I am, a pretentious mess, a wannabe nothing. Is that thought – the thought of me becoming something in the end if given enough time – the source of your perseverance in watching your eldest son become completely insufferable, the source of your confidence that it will be worth it when all is done?
+				</p>
+			</div>
+			
+			<div class="boxPullPrompt" style="border: 5px grey groove; text-align: center;" onmouseover="expand(21)" onmouseout="contract(21, 'black')">⇩</div>
+		</div>
+		
+	</div>	
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+		
+	<div style="margin-left: 420px; margin-bottom: 200px;">
+		<div class="boxRepeatPrompt" onclick="expandMultiple(22,3)"></div>
+			
+		<div class="boxRepeat" id="expander[22][0]">
+			<p id="readIn[22][0]">
+				There is a specific condominium unit that can be seen from our balcony. It is in another building, the one closest to us, and it has a particular room with only windows as its walls so that its residents could have the view of the straits during mealtimes. Sometimes, after I finish washing at the sink, I would pass by our living room and – in the corner of my eye – spot movement in that unit: silhouettes sitting around the table having dinner and chatting with the night so laid out before them. After watching them for a while, I recall that I had exactly that goal in mind when I first returned. How did things end up where I am, though? I have robbed our home of this luxury, of a proper mealtime that we can have together seated around a table as we converse about the day and have discussions of whatever that could come to mind. It is so within reach right now that it is out of it too, but it is too late now. I think of the children of your friends with envy, they do not know how lucky they are to be able to properly believe that their parents are lucky to have them as children. Until when must I wait to be able to satisfy this tiny goal? Until when must you wait to feel lucky that I am lucky enough to believe that you are lucky to have me? Is that last sentence confusing? I do not think so, really. Anyhow, it is much less perplexing than these issues I am not figuring out. Until when must we wait?
+			</p>						
+		</div>	
+		<div class="boxRepeat" id="expander[22][1]">
+			<p id="readIn[22][1]">
+				I cannot look my parents in the eye, maybe not even my siblings. Maybe that is why I often avoid any kind of talk. Maybe because I cannot forgive myself for letting things come to this. Maybe I do not believe that you are truly happy that you have a son like me. Maybe I have overstayed, and I should not have. The one factor that makes me regret not returning across the world is how I am making everyone suffer my presence. Maybe that is why I cannot bring myself to talk to the people whose lives I am making inconvenient. There were many things that should have happened, and many more that should not. If only I did not wait, if only I did not try to shy away from my problems which slowly grew into such a crescendo. Yet it is easy to regret only when one is looking back, is it not? And I am still waiting, and I am still running away from my issues. It is not as simple as me being unready to discuss it with anyone, be they my parents or professional consultants. It is simpler, or maybe not: maybe I do not have the guts to accept what time is giving me as punishment, and as I wait, the penalties are increased further, and maybe that is how I lost my touch of conversing with the people I care about. Maybe I cannot believe that I have not let them down. Maybe I cannot believe that they do not believe I will continue letting them down. I am not really sure what I believe and what I do not. But of course, I am, after bloody all, still bloody running.
+			</p>						
+		</div>	
+		<div class="boxRepeat" id="expander[22][2]">
+			<p id="readIn[22][2]">
+				Every single time I ask to have my floor mopped or my table wiped or my bedsheets changed, I recall that I am nothing. Every single time I entered the toilet with the heavy dread of a long ritual ahead, I recall that I am nothing. Every time I brush my teeth and glance at my tired mother and my tired grandmother watching their show on television, I recall that I am nothing; and every time my father comes back home after a long day at work, I recall that I am nothing; and every time I notice my brother and sister working on their studies, I recall that I am nothing. Every time I can only watch as my mother and my grandmother wash the plates and fold the clothes and mop the floor, I recall that I am nothing. Every time my father comes in to try and talk to me about me, I recall that I am nothing. Every time my mother brings in food for me, I recall that I am nothing. Every time I picture the sadness of my grandparents concerning my mental situation, I recall that I am nothing. Every time I try to run away from my thoughts by diving into games, I recall that I am nothing. Every time I video-chat with my friends, I recall that I am nothing. Every time I watch history videos or stream a show online, every time I play chess, every time I look at the writing I have done, every time I look at the piano, I recall that I am nothing. Every time I look at the mat ‘blocking’ my way to the balcony, I recall that I am nothing. Every time I lie down on a newly changed bed, I recall that I am nothing. Most everything I do, usually, I recall that I am nothing. I am still bloody nothing, and perhaps even less than nothing, lesser every day. What in the world am I even living for?
+			</p>						
+		</div>
+	</div>
+	
+	<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 77%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(23)"></div>
+			
+		<div class="box" id="expander[23]">
+			<p id="readIn[23]">
+				Imagine an old man caring for a wheelchair-bound teenage boy. Imagine the teenager’s thoughts concerning his unavoidable dependence on his aging grandfather. Imagine telling him about my situation. Imagine him imagine how he would behave if he was just me, yet he would never be. What am I doing with the privileges I was born with? I shackle and cripple myself with my unending thoughts, this unending curse; and if only I could be free of these restrains, how much more could I be doing? Imagine this teenage boy on his wheelchair, looking with pity at his grandfather: Ah, if only he could take care of this old man rather than the other way around, if only he could acquire the ability to properly show his appreciation. Imagine telling him that I have functioning arms and legs and heart and mind, and yet every bloody day I call for my mother to wipe my table as I throw away two hours or six hours or even ten hours of the day in the shower complaining about the hours I am throwing away just to be in the shower. It is not even funny anymore. What a sad joke.
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 55%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(24)"></div>
+			
+		<div class="box" id="expander[24]">
+			<p id="readIn[24]">	
+				It is unfair, so very so. Why does one deserve luxury when one is complaining about it? The gods blessed me with what I have right now, and every night I pray to them, threatening them should they even think of taking anything away from me, thanking them for listening to my prayers, promising them that I will not take their gifts for granted, asking them for time, time, time. But I am aware that it is running out: time. and yet I am running from being aware of that, waiting for something. What that something is, no one yet knows, and as I remind myself that things must now remain what they are, I struggle against these thoughts, running again, running into my daily rituals, telling myself that I will think it through come the next morning, that it is just one more day of procrastination, and that one day does not mean much. If only I could go back to that one day when everything started to buckle beneath the weight of my negligence. Too late now.
+			</p>
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 77%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[25]" style="margin-left: auto;">			
+			<p id="readIn[25]">	
+				What would I feel when I can finally watch the television or listen to a song while holding the hands of my parents, their hands which I have not touched for such a long time despite once regretting not doing exactly that. My mother toils ceaselessly day and night, attending to the tedious specifics of my rituals, wiping and scrubbing and mopping and cleaning. How would her palms feel? Would I cry at the sight of the comparable smoothness of my own hand? Would I feel guilt and regret? I fear the moment, but it needs to come and I want it to come, because I want to hold their hands, because I want to apologise properly and finally give them the life they deserve, because that would mean that all has been settled and done with. But it should have been me whose hands are rough and cracked, it should have been me whose bones and muscles are sore! I should not have let things come to this intensity. They are tired, my parents, tired because of their love for me. I am tired, my heart and soul and mind, tired of waiting to see if times would magically become better, if I could magically be cured of my thoughts.
+			</p>
+		</div>
+
+		<div class="boxPrompt" onclick="expand(25)"></div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 55%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[26]" style="margin-left: auto;">			
+			<p id="readIn[26]">	
+				I think of them with scorn, those children of rich parents who squander away their wealth by performing foolish mistakes, those parasites who leech off the lives of those around them. Yet now here I am, exactly like them. I may just be at the early stages now, but the symptoms are showing, glaringly obvious and haunting. I shiver at the thought of a future me who has nothing and no one, only left with regrets and misery, the man who threw away his privileges of both love and money, he who is unworthy of his quality upbringing, he who was a pain to everyone who once cared for him, he who wasted all the efforts of his parents, turning the hard work they put in to raise him into crumbs and dust. I am scared, so very scared, but I am still going down this bloody road from which I should have been spending the last year trying to escape. It is almost too late now, and I still do not see a way out. At least I am self-aware, I console myself, but what is the use of that if I could not act accordingly?
+			</p>
+		</div>
+
+		<div class="boxPrompt" onclick="expand(26)"></div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 66%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(27)"></div>
+			
+		<div class="box" id="expander[27]">
+			<p id="readIn[27]">	
+				What were my parents doing when they were 21? Helping their parents in managing the house and studying hard for their degrees, acquiring the ability to be independent and securing their future livelihood, being role models for their siblings. What were my grandparents doing when they were 21? Married, mentally and financially motivated to build a family, working day and night in the coffeeshop and doing the necessary chores to keep their lives intact. What in the living hell am I doing now? What in the bloody hells will I be doing next year? What will I still be doing when I am 25? ‘Look at everyone!’ my reflection says to me from inside the mirror. I am more intelligent than anyone else, yes, I firmly believe so! I am infinitely more capable and creative and innovative than anyone I have ever heard of! But what am I doing with this grand potential? This is bad. This is so very bad. I am dying slowly, and pulling everyone down with me. I am meant for a greater purpose. Where am I going?
+			</p>
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 66%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[28]" style="margin-left: auto;">			
+			<p id="readIn[28]">	
+				I should be the one waking up early in the morning to drive to the market and buy groceries. I should be the one doing the laundry, I should be the one mopping the floor, I should be the one cleaning the toilets, I should be the one wiping the tables, I should be the one washing the dishes. I should be the one cooking, I should be the one baking. I should be the one making cups of coffee every morning and cups of milo every night. I should be the one hanging the clothes and ironing them and folding them. I should be the one to take the car for a wash, I should be the one to feed the dog, I should be the one to take out the trash. Everyone else should be able to sit on the sofa for the entire day, watching the television and enjoying a good time. I should be the one doing everything; I once promised myself exactly that. After all, all my friends are doing it. It is so painful intermittently facing the fact that I am not at all like them. They are so lucky to be able to make their parents feel lucky, and yet they do not know it. When will I ever start to redeem myself?
+			</p>
+		</div>
+
+		<div class="boxPrompt" onclick="expand(28)"></div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 33%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px; margin-bottom: 100px;">
+		<div class="boxPrompt" onclick="expand(29)"></div>
+			
+		<div class="box" id="expander[29]">
+			<p id="readIn[29]">	
+				I am doing nothing with the time I paid for everyday by showering for long bloody hours and for burdening my mother with ceaseless wiping and mopping. Nothing is changing except for the way they are worsening in every possible way. I avoid talking about these problems, letting them fester instead. I avoid thinking about curing myself, letting myself fall even deeper into the abyss of mental instability. Every day I just shower, eat and sleep, and I am not even doing any of them properly. And I reflect, of course, I reflect on myself and my mistakes, those I have made and those I will inevitably make soon and sooner. I reflect on the mistakes I will repeat; I reflect on the stagnant progress I am making towards my ambitions; I reflect on the close ties and relationships I might lose if I continue going downhill; I reflect on the future possibilities of despair and shame and utter dissolution if I proceed to throw these precious hours away doing absolutely nothing. I reflect, and then I do absolutely nothing.
+			</p>
+		</div>
+	</div>
+		
+	<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 55%; margin-left: auto; display: grid; grid-template-columns: 600px; grid-column-gap: 20px; margin-bottom: 100px;">
+	
+		<div align="left">
+			<div class="box" style="border: 5px grey groove;" id="expander[30]">
+				<p id="readIn[30]">
+					Is my so-called anxiety dangerous to myself in a mentally physical way? Does anyone around me think that my stresses might make the call of the windows louder? Are they fools to think that I am a person who would throw away my livelong debt and potential? Do they worry so needlessly? But then why would they trust me not to eventually act out? After all, they do not understand what I want to achieve, what I want to know, what I want to understand, what I <b><i>want</i></b>. Everything is just life to everyone else, a programmed routine of their experiences and duties. I want to change that. Will I get to? All those questions above and all the questions below, will I one day muster enough courage to ask them in pursuit of total clarity? Will I ask the difficult questions to seek the difficult answers? Will I stop running? Will I reach somewhere? So many questions, so little time, so little energy, so little motivation. But will I eventually reach them all and know them all and understand them all? So you see, I cannot leave. I am duty-bound to this forsaken life-route, even as I thrash and struggle and cause my surroundings misery and pain. I cannot leave, for better or worse.				
+				</p>
+			</div>
+			
+			<div class="boxPullPrompt" style="border: 5px grey groove; text-align: center;" onmouseover="expand(30)" onmouseout="contract(30, 'black')">↘</div>
+		</div>
+		
+	</div>	
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 60%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(31)"></div>
+			
+		<div class="box" id="expander[31]">
+			<p id="readIn[31]">
+				There are a million questions that I need answers to. The world is a novel that I need to know the ending to. My life is a path to an undiscovered destination that I must discover. I cannot leave; it is in my character to find out everything. The small questions, the big questions; the inconsequential questions, the unnecessary questions; the deep questions, the important questions. I want total experience, total clarity, total synchronisation. I want to know what I would do with all the knowledge I could accumulate if I manage to learn the answers to every question in my head. I want to know if I have enough time in my life to do just that. I want to know how proud people I care about will be when I finally tell them that I know everything. I want to know how I will feel at that moment. What kind of closure can it be? How long will it take? How will I do it without losing anything along the way to glory?
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 36%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(32)"></div>
+			
+		<div class="box" id="expander[32]">
+			<p id="readIn[32]">
+				When will I learn to drive? Will I one day bring my family out on a midnight drive like we used to do? Will we sing along to the songs we love? Will I be the one to provide transport to the school or to the market? Will I finish learning how to ride a bicycle? Will I cycle around the city? Will I cycle around other countries? Will I ever make a good meal for the people I care about? When will I be comfortable enough to learn the art of cooking? What kind of meal will I be good at making? Will I cook for my friends too? Will I do outdoor cooking? Will I make a climb up a high mountain, persisting through thinly oxidised air and dangerous terrain? Will I go sailing, braving stormy winds and wild tides? Will I bring myself to dive into the depths of the ocean, to see the colourful wonders hidden from the rest of the world? Will I experience the exhaustion and carefreeness of farming, to properly expose myself to the natural dirt? Will I go camping like how I always imagine I would enjoy doing, if only I am not hindered by my own mind? All these urges, will they not make fantastic pictures, spectacular memories, sensational stories?
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 60%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(33)"></div>
+			
+		<div class="box" id="expander[33]">
+			<p id="readIn[33]">
+				Will I pick up intensive reading again? Will I feel comfortable holding a physical copy of a book again? What kind of books will I be interested in? What kind of amazing stories will be published in the future? Will I ever be properly good at chess? Will I grow out of my carelessness and lack of finesse? Will I still play chess with my friends in the next few years? What if when we are thirty, or forty? Will I be able to make my own version of chess? Will I decide to practice playing the piano vigorously? Will I re-enter the world of classical music again? Will I pick up the guitar once more? Will I become better at singing? Will I compose my own music? Will my music be famous around the world? Will my family and friends praise my music? Will I ever muster the courage to do street-performing? Will I be asked to go on stage in a coffeehouse to perform for an audience? Will I do it with a band of friends? Will I one day perform for the people of my life as they gather around the piano or the guitar, listening to me singing my favourite songs, maybe beside a gently roaring bonfire underneath the silent night sky?
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 60%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[34]" style="margin-left: auto;">			
+			<p id="readIn[34]">	
+				Will I continue my coding courses? Will I make a proper website to display my aspirations to the world? Will I create my own blog that is able to teach the art of English to a stream of viewers? How long until I can find the right amount of motivation of run towards that goal and reach it? Will I find success as a writer? Will I ever be able to create something that I could look back to without thinking it is unsatisfactory? How big of a series will I be able to write? How fast will I write? How well can I write? How will I find success in such an unpopular choice of life route? Is my writing based more on negative emotions like regrets and self-pity? Is sadness the drive that spur people to create art, and that is why it is the same for me as well? Will I decipher the mysteries of linguistics and create my own set of languages for my stories? Will my languages be unique and profound and not simply a banal attempt at philology? Will I find the charisma to stand in front of a class and deliver a lesson of what I know? Will students respect me? Will I be able to hold the attention of a crowd as I tell them about my thoughts and opinions and realisations, about my misdoings and misgivings, about my story?
+			</p>
+		</div>
+
+		<div class="boxPrompt" onclick="expand(34)"></div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 73%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[35]" style="margin-left: auto;">			
+			<p id="readIn[35]">	
+				Will my siblings fare better than me in their pursuit of definition? Will Chloe become a singer? Will her drawing skills improve to the degree of a comic artist? Will her piano skills be acknowledged by the world of music? How much will she grow in the future? What other skills will she pick up? How many more great anime will she watch? Will she maintain a circle of friends that will always stay by her side? What kind of daughter will she grow up to be? Will Dyllon find a hobby he is absolutely passionate in? Will he decide to give his best to his studies? What career will he be interested in? Will he enjoy his choice of work? Will it be hard for him to study abroad? How much more will he grow as a person? Will he pick up his previous skills again? What kind of game will he be playing? Will he play them with me? Will he find friends that will stick with him come hell or high water? What kind of son will he grow up to be? Is Carine going to be close to our family as time goes by? Will she be raised well? Will we be a very tight-knit extended family?
+			</p>
+		</div>
+
+		<div class="boxPrompt" onclick="expand(35)"></div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 60%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[36]" style="margin-left: auto;">			
+			<p id="readIn[36]">	
+				Will Hydram become a famous artist? Will Yi Ming become an established programmer? Will Yi Fan become the shining pride of our group of family friends? Will I reconnect with those I have not spoken to for such a long time? Will I still call myself friends with those I have not been able to converse with since we parted? How will each of their lives go? Will I be interested in knowing them again? Will they want to know me too? Will I become a person that is worthy of maintaining a friendship with? Will I be able to support their ambitions? Will they want to support me in return? What kind of career will they be successful in? Will they come to me in times of trouble and crisis? Will I be able to provide assistance? How many will stay by my side until I find total success? How many less will be there when I reach the absolute pit of failure and ruin? Will I only ever look at them with envy, that they could live out their lives in search of meaning while I might have already lost mine?
+			</p>
+		</div>
+
+		<div class="boxPrompt" onclick="expand(36)"></div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 73%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[37]" style="margin-left: auto;">			
+			<p id="readIn[37]">	
+				Will the sixth and seventh book of A Song Of Ice And Fire ever be finished and released? How will that upcoming Game Of Thrones prequel go? Will the world of The Silmarillion be explored further? Will there be more movie-adaptations for The Lord Of The Rings? Will there be more song adaptations for J.R.R. Tolkien’s poems? Will I be one of those who are able to compose suitable melodies for those poems? How will the Marvel Cinematic Universe continue? What kind of anime will be coming out in the next decade or so? How advanced will the games in the future be? Will I ever be able to play them myself? Will I experience the lore of Elden Ring and learn the worldbuilding lessons it can offer? How much longer must the world wait for The Elder Scrolls 6? Will there be a Persona 6? How will they revive the Pokémon franchise? Will Ghibli Studios make more incredible movies? What kind of lessons will I experience? How many movies and games must I re-experience to completely synchronise with all that is there to be learned? Will there be great music to look forward to in the future? Will I be one of those era-defining artists? How much more will I learn? Will I be willing to keep learning? Will life prove to me that all these lessons are useless, an unfit dream for the likes of me? When? How?
+			</p>
+		</div>
+
+		<div class="boxPrompt" onclick="expand(37)"></div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 60%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[38]" style="margin-left: auto;">			
+			<p id="readIn[38]">	
+				Will more deep-ocean species be discovered? Will huge shipwrecks filled with sunken treasure be found? How will humans handle global warming and climate change? Will aliens be discovered? Will humans achieve space-travel? Will full-dive virtual-reality games be possible? How will artificial intelligence be improved? Will water pipes that do not need to share internal pressure finally be invented? Will waterproof walls be a common thing everywhere? Will there finally be a proper waterproof phone? Will the internet connection ever become something that is conveniently accessed by everyone? How will the silent conflict between China and Taiwan turn out? How will the African countries move forward despite their numerous border issues and political crises? How about India and its neighbours? Will the Middle-east ever get rid of war? Will the Jews finally hold firm on their own nation-state? Is America going for a downfall? What is Russia up to? Europe? Turkey? When will Malaysia be fixed? What dreams does Penang have? What can I learn to be able to change my homeland for the better, and how am I going to do it, and with who am I doing it with, and will I be worthy to do it, and will I actually be able to succeed and maintain that success? When will I cast away my mental obstacles and finally push myself into my destiny? 
+			</p>
+		</div>
+
+		<div class="boxPrompt" onclick="expand(38)"></div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 60%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(39)"></div>
+			
+		<div class="box" id="expander[39]">
+			<p id="readIn[39]">
+				How long will life stay the same, so close to happiness but not so very? How long can my family be together in the same house before the little birds begin to leave the nest? How much will I regret? Will Chloe and Dyllon avoid me when they become adults, angry at my ruining their years of youth? Or will we siblings stick together come hell or high water? Will my grandparents see me become a person they can be proud of? Will my parents share everything they have ever wished to share with their own parents? Will they find the courage to? Will I do the same? Will I be able to? Will my family see me get married? What kind of girl would choose to spend the rest of her life with me? Will she suffer too? Will I be capable of raising my children like how I was raised? Will I find a way to prevent them from being afflicted with my disorder? Will I live far away from my parents? Will they even want to live with me? How many times in a year will I be able to meet my siblings? How will my interactions with their adult versions be? Will we look back at our childhood and talk of how I screwed up everything?
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 36%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px; margin-bottom: 100px;">
+		<div class="boxPrompt" onclick="expand(40)"></div>
+			
+		<div class="box" id="expander[40]">
+			<p id="readIn[40]">
+				Will I stop worrying my family? Will I stop making them suffer through the days they have no choice but to tolerate my existence? How much longer do they still have to suffer? How much longer must they wait? Will their long wait be rewarded? Will time cooperate? Or will it make me regret? Will I have enough time to prove the value of my family’s decades-long wait to them? Will I be able to take care of them in return? Will I be able to provide the means to fulfil their dreams, to give them everything that they have ever wanted, to give them the luxuries they deserve? Or will I finally realise I am not all that special after all? Will I eventually submit to the reality that I cannot accomplish all that I want? Will I at last admit that I am not much more than a loser, a spoilt child with wasted potential, a capsized investment? Will I give up on my dreams and face the cruel cold truth that I am not worthy to even dream of dreaming? Will I have no choice but to become mature like the rest of humankind, to try my hardest to beg and crawl just to survive this so-very-real world? Will I still be who I am right now in the years that must pass?
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 36%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px; margin-bottom: 240px;">
+		<div class="boxPrompt" onclick="expand(41)"></div>
+			
+		<div class="box" id="expander[41]">
+			<p id="readIn[41]">
+				Does it matter? Maybe I might use what I have written above in a motivation speech if I succeed in the future. Or a recollection speech during a family party. Ha! Picture it! And I might answer the questions one by one by one, crossing them off a list as I go, marking those that would still be without answers. ‘Did I change?’ And then I will tell my little story to my audience. ‘Are things better now?’ I will either say that sentence in a sarcastic tone or a breaking-into-a-sob tone. ‘Is my family still worried? Are they happy?’ And I will look across the room at my parents, seeing if they might respond for me. ‘Is a waterproof phone available?’ Maybe I might have a proper phone by then, and I will lift it up above my head so everyone could see it. ‘How big of a series am I writing?’ Maybe I will get to make a huge gesture, spreading my arms wide in a show of achievement, and then the crowd will clap with praise and laughter. Or maybe I will shake my head in defeat, acknowledging the failed potential of that long-ago dream. Do you see it? Can you imagine it? Well, does it matter? Will this matter? Time. Bloody time.
+			</p>			
+		</div>
+	</div>	
+	
+	<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="margin-right: 330px; margin-bottom: 200px;">
+		<div align="right">
+			<div class="boxRepeatPrompt" onclick="expandMultiple(42,6)"></div>
+			
+			<div class="boxRepeat" id="expander[42][0]">
+				<p id="readIn[42][0]">
+					Halfway through these messages, you might already be thinking that I am crazy, that I am far out of my mind. Well, you would not be the first to think so. That honour would belong entirely to me. As much as I have this unfounded confidence, I do still have raging doubts. Maybe some doubt mixed in with some confidence will eventually grant me success, is that what I believe? Does anyone else in this world think like I do, the way my perspectives and observations twist and fold? I must admit, albeit also feeling over-conceited, that I trust that I am the only one. Does anyone actually equally believe and doubt everything that they see, each choice constantly fading in and out like thousands of annoying blinking stars? Do I think thinking like this makes me clever? Do you truly think that I think I am clever? I do not know what to say on that, actually. I am the most intelligent in this world; I am the world’s most foolish. Sometimes I think they mean the bloody same thing, because no one understands. Just wait until I can prove myself. Not yet. Not yet.
+				</p>						
+			</div>	
+			<div class="boxRepeat" id="expander[42][1]">
+				<p id="readIn[42][1]">
+					Do you perhaps understand why I am straying from the route of academic studies, that of which is the general expectations of a person my age? I ask you: will it bring me what I want? Will I really have to accept the reality that I cannot get what I want? Should I really look at life…‘maturely’? Why should I put all my resources and time and effort into something that would half-ass me in return, resources that do not even belong to me, resources that could be allocated to other areas more worthy of such investment? You do not see it. You do not understand. No one does. Will the people in my life get to have enough time to see me in all my glory if I follow their words and walk down the normal slow monotonously mundane low-risk path to a consolation success? Yet I am a hypocrite, am I not? Here I am, wasting my bloody time doing absolutely nothing, using up my family’s resources as I idle about, putting zero effort into fixing my bloody crap-pile of a life. But you do not see it. Not yet. Let me…Let me find it first.
+				</p>						
+			</div>	
+			<div class="boxRepeat" id="expander[42][2]">
+				<p id="readIn[42][2]">
+					Idling is a waste of everything. Is that why everyone is encouraging me to pick a path so that at least I would be working on a path and not throwing away my precious years of life? But I do not want to be them. They are merely procrastinating the contemplation of their lives by convincing themselves that they are striving diligently in a journey that they chose due to the social pressure of finding independence and stability as soon as possible, consoling themselves that it is the more realistic and reasonable choice. Is what they are doing truly called ‘working hard’ then? They are running away from thinking too much, too lazy to properly find a definition to the life they want to lead. They are submitting to reality. They are throwing their time away to this inevitable surrender, that they could never be more than they will be. But what the heck, right? At least that is better than dooming themselves to an extreme decline in future prospects like I am currently doing. So hypocritical, isn’t it? But you do not understand. I do not understand either.
+				</p>						
+			</div>
+			<div class="boxRepeat" id="expander[42][3]">
+				<p id="readIn[42][3]">
+					There are so many stories and movies and speeches about someone being confused in a particular stage of their lives, and someone else who is usually an elderly man or woman would come and give some worldly advice on how to live and how to love and how to think and how to believe. A very meaningful quote would be said, and then maybe a wise remark or two, and the tale would continue with renewed confidence and determination. My friends have people like that in their lives too, and I am sure you grew up with a few good advisors as well. I do not understand, then, my inability to acknowledge anyone being wiser than me. No one that I have ever interacted with has ever given me a thought or idea that pounces out like sparking flames. Everything that anyone could say to me, everything and anything else, I have thought about before thrice and thrice more. There is no sure guide in my path of life; no one could teach me nothing. After all that I have written here, even you grown experienced adults must have learned more than a dozen things just by reading this, and maybe you might even disagree with half of them, and maybe you still think I do not know how you might disagree. Maybe I really do not. The only thing I can count on for wisdom is my mind, and oh, my bloody mind could not stop spinning, could not stop running…Do you get what I mean? No, maybe you do, but not really. Am I saying I am the wisest in the world? Then how can I explain the state I am in now? No, nothing makes sense. There are just words. Just thoughts.
+				</p>						
+			</div>
+			<div class="boxRepeat" id="expander[42][4]">
+				<p id="readIn[42][4]">
+					You think you know exhaustion better than I do. Maybe you do: for my father goes to work every day before coming back home to see his mentally crippled eldest son wasting his life away; for my mother cook and wash and wipe for this eldest son every day while receiving barrages of unappreciative insults to her face. But your exhaustion is fulfilled, justified. You could console yourself by thinking that you are doing this out of love and duty, that you are just responding to this responsibility. But me? I toil away in my bloody rituals for hours on end achieving absolutely nothing, and when I do come out I run away from my spinning thoughts by immersing myself in movies and games, again and again, achieving absolutely nothing. I could not console myself with anything because I am not fulfilling anything. Rather, I am depriving my home of its warmth and grace; I am detaching myself from the people I should be taking care of at my age; I am ruining my own life and everything I hold dear. I am so, so very…Do you still think you know exhaustion?
+				</p>						
+			</div>
+			<div class="boxRepeat" id="expander[42][5]">
+				<p id="readIn[42][5]">
+					Considering my immensely unrealistic ambitions, how very tiring do you think it is for me to go through every waking second being reminded that I am still bloody useless? I could be writing and coding bestselling blogs by now if only I had given enough time and effort to that prospect, yet alas my motivation is as low as the deepest pit in hell. And with my decision to stop my tertiary education, I am nowhere closer to any achievement worth mentioning; and you have nothing to look forward to, nothing to talk about when I am brought up in a conversation, nothing to be glad and happy for. How tiring do you think it is for me to imagine the thoughts that are spinning in the heads of everyone I see every day? I do not know, really, I try not to think about how tiring it is. I already have too much on my plate. Too bloody much of nothing, anyway. Nothing to justify my living on. Nothing to tell people that I have lived my 21 years of life properly and fulfillingly. So many mistakes…So many unresolved unknowns…So very tiring it is to know that none of them would really yield much anything. Unless they are done right; but I don’t really want to think anymore. <b><i>I am very tired of not being able to be concretely useful; I am very tired of convincing myself that one day I just might be concretely useful.</i></b> What could be more tiring than the unfading repetition of that thought?
+				</p>						
+			</div>
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 72%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(43)"></div>
+			
+		<div class="box" id="expander[43]">
+			<p id="readIn[43]">
+				All these messages, to think that they come from my long shower rituals and my teeth-brushing routines. During the sessions when I am occupied with satisfying my anxiety, I would make a silent note to myself to use my leisure time more effectively, promising that I would utilise the time I have earned for myself by writing and composing and learning. I would plan the day in my head, and when I do actually finish up with everything, I would instead spend all that hard-earned time on absolutely nothing, because it would be as if time likes slapping me around. One second it would be the evening, the next the sky would be as dark as hell. Well, at least there are as many entries here. It could have been better, but only time will tell if I can justify the spinning of my mind, if I can put onto paper all these wild thoughts and rest them in eternal peace.
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 24%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(44)"></div>
+			
+		<div class="box" id="expander[44]">
+			<p id="readIn[44]">
+				In the shower during my rituals, I would often look forward to how I would just sit silently and relax when I am finally out. I would make a large promise to the heavens and myself, to allow the ritual to pass by as fast as possible so that I can finally appreciate the few hours when I am not going through such petty messiness. I would promise that I would play music in the background as I look out the window at the citylights, thinking about the day and the morrow and my life and how to improve everything. ‘Let me out’, I would pray. Yet when the time finally comes, I would not be able to keep my head silent. Because I would not want my precious hours to go to waste doing absolutely nothing except thinking, so I would only rush through videos and games and other acts of procrastination, not actually doing anything of value. Funny, right? And before I know it, the next day arrives.
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 48%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px; margin-bottom: 75px;">
+		<div class="boxPrompt" onclick="expand(45)"></div>
+			
+		<div class="box" id="expander[45]">
+			<p id="readIn[45]">
+				In my rituals, while I am sitting on the toilet and standing in the shower, I would suddenly think of a bunch of ideas: creative ways to continue building my world, personal plans to improve myself, heartfelt content for these messages, speeches to present to my friends, melodies for a song, techniques to string my code, and so on. I would be so inspired, it would be as if my brain could only wish to be productive when it is impossible to be so; and when it is allowed the chance to be idle and relaxed, to actually be productive, it would instead plunge itself into the ocean of procrastination. You could not guess how long I have been working on this, and how much sooner you could have been reading if only I had used my time a little bit more wisely instead of occupying myself with these ceaseless running. Or maybe you can guess? Well, I cannot. What am I running from?
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 84%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[46]" style="margin-left: auto;">			
+			<p id="readIn[46]">	
+				This constant anxiety, this chaotic mentality, these merciless routines, however much they are hindering any progress in my life and disturbing the lives of the people who love me, I believe they also consistently modify my thought-concepts and mind-structure. I believe that because of these unnecessary struggles that I have suffered and am suffering through, I could connect and link more aspects of everything I see and think of than the average person. Every small thing that might lead to a bigger consequence, every assumption of the best and worst, every imaginable possibility that most might simply neglect or overlook; I could see them better and better as I continue being tortured by myself. Or maybe this is just me convincing myself: that even though I am wrecking havoc, there is at least some good that might come out of it. However, I cannot believe otherwise, because I need this to matter, I need to believe that these few years of nothing is producing something so that I could decide to go on.
+			</p>
+		</div>
+
+		<div class="boxPrompt" onclick="expand(46)"></div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 48%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[47]" style="margin-left: auto;">			
+			<p id="readIn[47]">	
+				It would be nice if there is anyone up above who could be the judge of my overall intelligence and potential. It would grant a good supply of motivation and assurance if I am assessed to have a mind that is more capable to process deeper and more complicated thoughts than the majority of the human race. Could they tell me that I am who I am right now because of my anxiety, that the ability to simulate scenarios, to predict outcomes, to synchronise experiences, to emulate personalities and to spontaneously empathise with others is a limited trait that I am blessed with because of my inability to go about with life like everyone else? Or is this, again, me trying to console myself that I am not fully entrenched in the depths of doom and failure? Who knows? There is no one up above who is kind enough to relieve my curiosity. There is no one who can judge me and give me an analysis of my life or assign a value to my worth. No one knows, no one but time. Bloody time.
+			</p>
+		</div>
+
+		<div class="boxPrompt" onclick="expand(47)"></div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 60%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px; margin-bottom: 75px;">
+		<div class="box" id="expander[48]" style="margin-left: auto;">			
+			<p id="readIn[48]">	
+				I told one of my friends that if only he knows of my behaviour at home and my attitude towards my family and the heights of my hypocrisy and the long rituals my home must suffer every single day, he would immediately decide not to be my friend. I did not tell him any of that, of course, I just informed him that he does not know the truth; and yet he countered that because I did not give him a chance to be informed about the truth, I should not make a conclusion. Funny, right, is he not? Does he think a highly intelligent freak like me cannot simulate a person’s reaction to my true story? If I must reveal the truth, I want to tell everyone everything in one split second, I want to let everyone know instantly, and I want them to understand everything that is in my head all in one go, and I want them to judge me. I want them to let me know what kind of a hateful disgusting ungrateful disgraceful self-obsessed person I am, I want them to tell it to my bloody face. Every single thought in my head, every truth, all poured out for the world to observe and assess. Then I can finally properly know. Let me know me. If only I could, I would.
+			</p>
+		</div>
+
+		<div class="boxPrompt" onclick="expand(48)"></div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 84%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(49)"></div>
+			
+		<div class="box" id="expander[49]">
+			<p id="readIn[49]">
+				Maybe, just maybe, this world is an intricately developed story written by someone. Perhaps that someone is Destiny, Fate, The Gods, The Heavens, Time, or whatever name that can be come up with. Maybe, just picture it, I am designated to be one of the Protagonists, blessed with my wit and my charm and my privileges. But a Main Character requires a solid backstory, some kind of character-defining phase or story arc that is filled with obstacles and struggles. Maybe this long period of downfall and failure and bottom-pit stagnancy is exactly that: a necessary section of my story, so that I could obtain what I need to achieve my ultimate mission, my lifelong objective. Maybe all these guilts I have gathered, all these pains I have caused, all these realisations I have discovered… Maybe everything will make sense in the long run. What choice do I have but to believe that that unknown someone, The Writer Of The World’s Tale, has no choice but to make sure my growth and development as the Protagonist is justified?
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 60%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(50)"></div>
+			
+		<div class="box" id="expander[50]">
+			<p id="readIn[50]">
+				Please, I beg you, please wait for the day it will all be worth it. I have no choice but to place this promise here, so I will have no choice but to fulfil this promise, because it must be done. I have no choice but to believe exactly that. What else is there to look forward to? You have been waiting for years, and a few more will only bring closer the justification of this promise, so just keep waiting. There will be large returns, there just must be. There is no other possible outcome I can think of. Glory, glory, glory! Only one path ahead. Nothing else. I cannot believe otherwise. I cannot expect otherwise. Satisfaction, pride, understanding, gratitude, relief, acknowledgement, all that and more will be provided on that very day, the day I will finally be able to apologise properly to my family who I have caused so much misery to. My parents, especially, my mother and father. So please wait, because it is not too far away now; it is coming. I can feel it; it is meant to be. There is no other possible timeline.
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 36%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px; margin-bottom: 100px;">
+		<div class="boxPrompt" onclick="expand(51)"></div>
+			
+		<div class="box" id="expander[51]">
+			<p id="readIn[51]">
+				But the Heavens have now started to slam me down with constant nightmares, dark and darker scenes of everything going badly. They are like whispers, telling me that I have no time left, reminding me of the so-called purpose that I assigned to myself. I would wake up in cold sweat to realise that nothing truly bad has happened in reality, not yet, but then I would continue screwing up through the day, neglecting the warnings. ‘I will regret this’, I keep telling myself that, but there is no changing my daily routine of making my family suffer through my insanity. And then, the waves of nightmares would continue, more urgent than before, and still I would make the same bloody mistakes every next bloody day. I will regret this. ‘But please, not yet, give me a chance,’, I keep begging. The Heavens hear me, but I wonder if they would heed my plead. Again and again, I am testing the patience of my destiny. But…what else could I do?
+			</p>			
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 70%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[52]" style="margin-left: auto; border: 5px grey groove">
+			<p id="readIn[52]">
+				One day…There would come that one day which is one of my best reasons for living on: everyone that I care about will be celebrating my victory at a party, preferably at night, with the city lights at full glow and the moon a giant shine in the starry sky. There will be food of every culture, and fine wine and cider and ale. My whole family will be there, and all my close friends too, and we will all rejoice for the progress we will have made together. And then I will go somewhere with a high vantage point, the balcony of a tower or the top roof of a villa, and I will gaze down at that scene of fulfilment and accomplishment. I will sit there alone with only a soft background music as company, and then I will think of all the good and bad times I have been through, all the highs and lows I have experienced; I will think of these long messages; I will think of my stories; I will think of my dreams; I will think of the people in that party; and then I will cry in silence, because there will be no avoiding it. ‘Finally, closure. Finally’, I will be thinking. When will that day come? I want…
+			</p>
+		</div>	
+		
+		<div class="boxPushPrompt" onmouseover="expand(52)" onmouseout="contract(52, 'black')" style="border: 5px grey groove"></div>		
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 70%; margin-left: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 12px; margin-bottom: 100px;">
+		<div class="boxPushPrompt" onmouseover="expand(53)" onmouseout="contract(53, 'black')" style="border: 5px grey groove"></div>
+		
+		<div class="box" id="expander[53]" style="margin-right: auto; border: 5px grey groove">
+			<p id="readIn[53]">
+				Everyone is growing up. I see Dyllon every day, but it is so hard to believe that he is already 18. Chloe…she is 14 now. Carine has grown so big too. What am I doing? I am stuck. Where are my friends? They will be having their graduation ceremonies in a year or less, and most are already working as interns. Where am I? When am I? It is like I am not even 21 yet. Everyone is growing old. What am I doing for them? What am I doing for myself? Writing this…as if it might make things better. It is a start, maybe, but how long until I can get back on my feet? How much time would have passed by then? How late would I be? How late am I already? Hope…I am losing it. I am losing all of it. Everyone is moving forward. They are too quick. Time is too quick. I have no time to think. So much running. Everyone is growing up.
+			</p>
+		</div>		
+	</div>
+	
+	
+	
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div class="boxPullPrompt" style="border: 5px grey groove" onmouseover="expand(60)" onmouseout="contract(60, 'black')"></div>
+	
+	<div class="box" style="border: 5px grey groove" id="expander[60]">
+	
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="width: 39%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+		<div class="box" id="expander[61]" style="margin-left: auto; border: 5px grey groove"></div>
+		
+		<div class="boxPushPrompt" onmouseover="expand(61)" onmouseout="contract(61, 'black')" style="border: 5px grey groove"></div>		
+	</div>
+		
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	<div style="display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="box" onclick="expand(62)"></div>
+			
+		<div class="box" id="expander[62]">
+									
+		</div>
+	</div>
+	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+	
+</body>
+</html>
+
+<script>
+	function expand(a)
+	{
+		document.getElementById("expander[" + a + "]").style.height = "500px";
+		document.getElementById("expander[" + a + "]").style.width = "500px";
+		
+		var readOut = document.getElementById("readIn[" + a + "]").innerHTML;
+		document.getElementById("expander[" + a + "]").innerHTML = "<div style=\"margin: 20px; text-align: justify;\">" + readOut + "</div>";
+	}
+	
+	function expandMultiple(a, b)
+	{
+		var i, readOut;
+		
+		for(i=0; i<b; i++)
+		{
+			document.getElementById("expander[" + a + "][" + i + "]").style.height = "500px";
+			document.getElementById("expander[" + a + "][" + i + "]").style.width = "500px";
+			
+			readOut = document.getElementById("readIn[" + a + "][" + i + "]").innerHTML;
+			document.getElementById("expander[" + a + "][" + i + "]").innerHTML = "<div style=\"margin: 20px; text-align: justify;\">" + readOut + "</div>";
+		}
+	}
+	
+	function contract(a, b)
+	{
+		document.getElementById("expander["+ a + "]").style.height = "18px";
+		document.getElementById("expander["+ a + "]").style.width = "18px";
+		
+		if(document.getElementById("expander["+ a + "]").style.width == "18px")
+		{
+			document.getElementById("expander["+ a + "]").style.backgroundColor = b;
+			<!-- document.getElementById("expander["+ a + "]").innerHTML = ""; -->
+		}
+	}
+
+	function expand3()
+	{
+		document.getElementById("expander3").style.height = "500px";
+		document.getElementById("expander3").style.width = "500px";
+	}
+	
+	function contract3()
+	{
+		document.getElementById("expander3").style.height = "18px";
+		document.getElementById("expander3").style.width = "18px";	
+	}
+</script>
