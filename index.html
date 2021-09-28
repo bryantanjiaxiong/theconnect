@@ -33,7 +33,7 @@
 							}							
 	</style>
 </head>
-<body class="blinkingBlack" style="background-color: black; border: 2px white groove; max-width: 1500px;">
+<body class="blinkingBlack" style="background-color: black; border: 2px white groove; max-width: 1500vw;">
 
 	<header align="center" style="margin-bottom: 30px;">
 		<h1 style="font-size: 50px; text-shadow: -1px -1px 0px #EFF3F3, 1px -1px 0px #EFF3F3, -1px 1px 0px #EFF3F3, 1px 1px 0px #EFF3F3; margin-bottom: 0px;">To Mommy and Papa</h1>
@@ -791,8 +791,8 @@
 <script>
 	function expand(a)
 	{
-		document.getElementById("expander[" + a + "]").style.height = "500px";
-		document.getElementById("expander[" + a + "]").style.width = "500px";
+		document.getElementById("expander[" + a + "]").style.height = "500vh";
+		document.getElementById("expander[" + a + "]").style.width = "500vw";
 		
 		var readOut = document.getElementById("readIn[" + a + "]").innerHTML;
 		document.getElementById("expander[" + a + "]").innerHTML = "<div style=\"margin: 20px; text-align: justify;\">" + readOut + "</div>";
@@ -804,8 +804,8 @@
 		
 		for(i=0; i<b; i++)
 		{
-			document.getElementById("expander[" + a + "][" + i + "]").style.height = "500px";
-			document.getElementById("expander[" + a + "][" + i + "]").style.width = "500px";
+			document.getElementById("expander[" + a + "][" + i + "]").style.height = "500vh";
+			document.getElementById("expander[" + a + "][" + i + "]").style.width = "500vw";
 			
 			readOut = document.getElementById("readIn[" + a + "][" + i + "]").innerHTML;
 			document.getElementById("expander[" + a + "][" + i + "]").innerHTML = "<div style=\"margin: 20px; text-align: justify;\">" + readOut + "</div>";
