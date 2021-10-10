@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<title>The Vignettes</title>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
 	<style>
 		.box {height:18px; width:18px; margin-bottom: 30px; border: 3px grey groove; border-radius: 0.5em; transition: all 2s ease-in-out; display: inline-block; overflow: hidden; color: white;}
 		.boxPrompt {height:18px; width:18px; margin-bottom: 30px; border: 3px grey groove; border-radius: 0.5em; transition: all 2s ease-in-out; display: inline-block; overflow: hidden; color: white; animation: blinkBox 1s ease infinite alternate;}
@@ -16,7 +22,7 @@
 		a {text-decoration: none;}
 		 
 		@keyframes blinkBlack { 
-							   50% { background-color: black; color: white;} 
+							   50% { background-color: black; color: white; border: 2px white groove;} 
 							}
 		.blinkingBlack:hover { 
 								animation: blinkBlack 0.66s ease-in-out;
@@ -33,16 +39,19 @@
 							}							
 	</style>
 </head>
-<body class="blinkingBlack" style="background-color: black; border: 2px white groove; max-width: 1500vw;">
+<body class="blinkingBlack" style="background-color: black; border: 2px black groove; max-width: 1500px;">
 
 	<header align="center" style="margin-bottom: 30px;">
 		<h1 style="font-size: 50px; text-shadow: -1px -1px 0px #EFF3F3, 1px -1px 0px #EFF3F3, -1px 1px 0px #EFF3F3, 1px 1px 0px #EFF3F3; margin-bottom: 0px;">To Mommy and Papa</h1>
 		<h3 style="margin-top: 0px; text-shadow: -1px -1px 0px #EFF3F3, 1px -1px 0px #EFF3F3, -1px 1px 0px #EFF3F3, 1px 1px 0px #EFF3F3;">2021</h3>
 	</header>
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 36vw; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+	<div style="width: 36%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
 		<div class="boxPrompt" onclick="expand(1)"></div>
 			
 		<div class="box" id="expander[1]"  style="background-color: black;">
@@ -54,9 +63,21 @@
 		</div>
 	</div>
 	
+	<div style="width: 36%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px; margin-bottom: 100px;">
+		<div class="boxPrompt" onclick="expand(801)"></div>
+			
+		<div class="box" id="expander[801]"  style="background-color: black;">
+		
+			<p id="readIn[801]">
+				The website might leave much to be desired from the aspect of presentation, as I have not found an appropriate method to code a mobile-friendly display. But too much time have passed, and this could wait no longer. This is just the beginning, I hope, of a grand project. I would much prefer that you leave everything here unspoken and undiscussed if you wish for me to continue further. At least, until I am more ready. There is nothing you could say that I have not already thought about anyway. Just read, because I wrote this, and because you deserve to have something from me. This is what I can do for now.
+			</p>
+									
+		</div>
+	</div>
+	
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 54vw; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+	<div style="width: 54%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
 		<div class="boxPrompt" onclick="expand(2)"></div>
 			
 		<div class="box" id="expander[2]">
@@ -68,7 +89,7 @@
 	
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 43vw; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+	<div style="width: 43%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
 		<div class="boxPrompt" onclick="expand(3)"></div>
 			
 		<div class="box" id="expander[3]">
@@ -80,7 +101,7 @@
 	
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 32vw; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+	<div style="width: 32%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
 		<div class="boxPrompt" onclick="expand(4)"></div>
 			
 		<div class="box" id="expander[4]">
@@ -92,7 +113,7 @@
 	
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 21vw; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+	<div style="width: 21%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
 		<div class="boxPrompt" onclick="expand(5)"></div>
 			
 		<div class="box" id="expander[5]">
@@ -131,7 +152,7 @@
 	
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 55vw; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+	<div style="width: 55%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
 		<div class="box" id="expander[7]" style="margin-left: auto;">			
 			<p id="readIn[7]">	
 				It is as if I am living through every single day by borrowed time, paying the gods with hours in the shower for a few hours of rest when I finally escape my anxiety for the day. A daily instalment. A debt that I must repay so that I can continue living. Yet I am not the only one paying. My mother and my father are in pain, and even as they age they have to tend to their eldest son, sick in his bloody mind. Do I not have to leave to relieve you of myself? I have grown spoilt once more, and only suffering in loneliness and discomfort can I regain my insight. I need to recharge my sorrow, a one-time payment to the gods for a few months of enjoyment and mental ease. Just like Ireland. I came back too soon, and now I need to start all over again, to get back my understanding of what my privileges truly are. I should not have let things come to this, but there is no other way now. My life is defined by regrets, a temporary one is at least a miracle in itself, a lesson for the ages.
@@ -143,7 +164,7 @@
 		
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 66vw; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+	<div style="width: 66%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
 		<div class="box" id="expander[8]" style="margin-left: auto;">
 			<p id="readIn[8]">	
 				The rituals are lengthening, the requirements to get through each bloody day intensifying. The ants, the curtain, the window, the bathroom door, the bathroom door handle, disposable nail cutters, daily wiping of the table, constant changes of bedsheets, disposable toothbrushes, the leaking water through the glass, the wall, the windowpanes, and so bloody on. It will keep growing; as I continue feeding my anxiety, trying to find a spot to be comfortable, I endlessly discover new discomforts that I cannot ignore any longer. I need to go somewhere and find difficulty again, to find chaos and disorder, to find somewhere far away from my comfort zone such that it is safe enough to create imbalance and disharmony, to find rehabilitation. I need to rediscover humility and discipline. I need to rediscover myself. I am definitely not thrilled for this idea; it sounds like a lot of bloody work and adapting and misery and suffering, but things will only get worse now. I need something to hold onto; if I should stop running, I should jump into chaos and rebuild myself from there. I do not know, maybe…
@@ -155,7 +176,7 @@
 		
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 77vw; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px; margin-bottom: 100px;">
+	<div style="width: 77%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px; margin-bottom: 100px;">
 		<div class="box" id="expander[9]" style="margin-left: auto;">
 			<p id="readIn[9]">	
 				I need to go on another long trip. The picture of a high mountain and another of a farming village keep popping into my mind, but the sound of a ship whistling on the high tides is even more magnetic. An unknown height of difficulty and exhaustion in the same package as an adventure; a journey in search of discipline and perseverance and appreciation and regrets. It is a very bad idea, but it is definitely not worse that the notion of continuing as I am right now. No, I need to suffer something else, something that not many are facing, something different, but also something productive and educational, something that can change my mental structure. Something that is appropriately dangerous, something to test my luck, something to see if the Heavens truly need me in this bloody world, something to enhance my heart and mind and soul, something that is not truly bad if given enough of a chance, something that I would immediately regret going for but have no turning back from. To jump into chaos and then climb back out, just like I did before but better. This time it just might last, if not forever than at least a little bit longer. I will procrastinate this foolhardy plan, no doubt, but Destiny will arrive for me sooner or later with some choice or another. I need to make this one count, or I do not know how else my life could go on, how else I could get better.
@@ -167,7 +188,7 @@
 	
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 80vw; margin-left: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 12px;">
+	<div style="width: 80%; margin-left: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 12px;">
 		<div class="boxPushPrompt" onmouseover="expand(10)" onmouseout="contract(10, 'black')" style="border: 5px grey groove"></div>
 		
 		<div class="box" id="expander[10]" style="margin-right: auto; border: 5px grey groove">
@@ -179,7 +200,7 @@
 	
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 60vw; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+	<div style="width: 60%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
 		<div class="box" id="expander[11]" style="margin-left: auto; border: 5px grey groove">
 			<p id="readIn[11]">
 				What if the Heavens take me into another reality where I have lost everything, or maybe they could just send me into a future where the consequences of my current lifestyle would be in full light? Judging by the path I am currently heading down, I fear that I might just arrive in the complete decimation of my everything in no time at all. If the Heavens could just send me into a realistic simulation of loneliness, desperation, misery and deprivation, perhaps I could return to my real world a new man, a better man. Maybe I would be like those kids in the movies, running out of their rooms to hug everyone, thankful that they got out of their hellish nightmares and back into the embrace of a warm home, promising that they will properly appreciate everything and everyone they have this time. Those accidental time-travellers, those innocent dream-drifters. Imagine being surprised if one day I just suddenly changed, my mental instability gone once and for all. Maybe it would be because I was sent into such a dream. Alas, the Heavens have their plans, and this possibility is just not one of them.
@@ -191,7 +212,7 @@
 	
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 60vw; margin-left: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 12px; margin-bottom: 100px;">
+	<div style="width: 60%; margin-left: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 12px; margin-bottom: 100px;">
 		<div class="boxPushPrompt" onmouseover="expand(12)" onmouseout="contract(12, 'black')" style="border: 5px grey groove"></div>
 		
 		<div class="box" id="expander[12]" style="margin-right: auto; border: 5px grey groove">
@@ -204,7 +225,7 @@
 	<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 43vw; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+	<div style="width: 43%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
 		<div class="boxPrompt" onclick="expand(13)"></div>
 			
 		<div class="box" id="expander[13]">
@@ -216,7 +237,7 @@
 		
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 73vw; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+	<div style="width: 73%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
 		<div class="boxPrompt" onclick="expand(14)"></div>
 			
 		<div class="box" id="expander[14]">
@@ -228,7 +249,7 @@
 		
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 77vw; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+	<div style="width: 77%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
 		<div class="box" id="expander[15]" style="margin-left: auto;">
 			<p id="readIn[15]">
 				It is quite a pity. Tell anyone and they will feel pity; ask them again and they will tell you what a pity it truly is. You might not have the chance to celebrate my graduation with a smile like your friends are doing for their children. I ruined the last one anyway. Oh yes, I remember that day, such a pity indeed. The children of your friends, sailing off to independence with survival skills and accomplishments to boot, wearing such a bright pride on their smiles. You lost that luxury because I am not like them; I want something different, and I am also afflicted with something very different. You do not have the luxury of assuring me that I will succeed, because that would be a lie. Naturally, you cannot be certain that I would fail as well, because who knows? So what do I want to hear? Honestly, I am not really sure myself. I just know that I am guilty of taking away from you those little luxuries I mentioned. You see, most children do not appreciate that they are good children, that their parents do not need to worry. They themselves are not aware that they are doing well, and I myself can only envy them. So close. What did I miss? What have I made you miss? So, so close.
@@ -240,7 +261,7 @@
 		
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	<div style="width: 57vw; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
+	<div style="width: 57%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
 		<div class="box" id="expander[16]" style="margin-left: auto;">
 			<p id="readIn[16]">
 				But I wonder how your conversations with your friends might go if I am brought up as a topic. What might you say? Ha! What might they say? What might they ask? Painful questions with painful answers, and you can only ask them back and helplessly envy them when they speak oh-so-proudly about their overachieving sons and daughters. You have nothing to boast about, nothing concerning me. The only two topics you can bring in to save your faces are the responsible attitude that your younger son has towards his life and the very remarkable talents your daughter has. Thank goodness you have them. Selfishly, I am thankful to have them as my siblings, so my guilt of being a wrecked failure is lessened. And I am already guilty of so much already! Well, more is the pity, is it not? ‘If only your son was not faced with such an obstacle’. But alas! So, so, so, so, so very close indeed. So close it is that it is now very bloody far away.
@@ -753,18 +774,112 @@
 		</div>		
 	</div>
 	
+	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
-	
+	<div style="width: 36%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expand(54)"></div>
+			
+		<div class="box" id="expander[54]">
+			<p id="readIn[54]">
+				I told myself that after showing this to Mommy and Papa, I could focus on my preparation for Christmas in one of my final phases in figuring myself out before I set the next plan in motion. I want to rewrite the story of Aesena, the second book I will publish, and code a website for The Connect, a platform that will provide English vocabulary-learning and deeper delving into the world I want to create, and finish my Golden Grapes anthology. You must not know what I am talking about for now, but if time complies and if everything turns out well, you might find out. I will relocate this website, The Vignettes, to The Connect too. There is so much I want to do...If only...Never mind. It is the 10th of October now; I have postponed everything long enough. I hope you feel enlightened after reading this, for at least you know more about me now. I hope it is not too painful. I do not know if you might cry, or if you might smile. I can predict most possible outcomes, painting scenarios in my head, but I do not know exactly what will happen. I can only wait, like I have for so long. But it is coming, that day...right? Don't answer, you don't know. I don't know either. But I'm sure...
+			</p>						
+		</div>
+	</div>
 	
 	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
+	<div style="width: 66%; margin: auto; display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
+		<div class="boxPrompt" onclick="expandLarge(55)"></div>
+			
+		<div class="box" id="expander[55]">
+			<div id="readIn[55]">
+				<h2 align="center">Diary Entries, 2nd - 8th October 2021</h2>
+				
+				<p>
+				<b><u>Saturday, 2nd October 2021</u></b><br>
+				I had Nasi Briyani for brunch, which later resulted in a risky stomach ache at the end of my shower ritual. I managed to get myself a largely-smooth ritual, although a near hour was added when an insect was spotted on the floor on my way out, probably due to the door opening.
+				
+				<br><br>Despite Mommy having a headache, she had to change my bedsheets and wipe everything and mop and wash. Despite Mommy being tired after a long day, she had to wait that extra hour before she could bath because of that bloody insect. Despite Mommy being sick and sleepy, she still baked nice buttercake for my supper, probably worried that I was hungry and not believing that I have a high risk of actually carrying a belly of motion to bed.
+				
+				<br><br>Instead of carrying out the plans I had for the day, I told myself that I could not concentrate on doing anything important because of my stomach, and so another potentially productive day is wasted. I’m so tired. What might tomorrow bring? I wanted to watch the Violet Evergarden movie at 2am, but I didn’t want to risk carrying a filled bladder to sleep with the added risk of an extremely terrible morning on a supposedly motion-free day. 
+				
+				<br><br>I watched a history video on Sicily, a city once known for its greatness and potential cultural supremacy, with architecture that incorporated Byzantine, Roman and Arabian styles due to once being ruled by an inclusive Norman regime. I wonder, with Penang a cityport that has so many cultures, if I could bring my ambitions to fruition one day.
+				
+				<br><br>I had a chat with Yi Ming and he gave me a listen to edited recordings of him playing guitar. I suggested that he compile a list of tunes into a live video and publish it on YouTube, and I wonder if I might want to do the same. There are so many soundtracks from games and anime and movies that I believe would be amazing for a study or work session. If only my mind is more convenient. If only I am freer from myself. If only I could juggle my compounding anxiety and my overall productivity. So close. I am so close to being glorious. But I am stuck in this stagnant pool of idleness, knowing that I need to move yet procrastinating doing so. I’m so tired.
+				</p><br><br><br>
+				
+				<p>
+				<b><u>Sunday, 3rd October 2021</u></b><br>
+				Mommy and Papa went jogging in the morning, for a distance longer that I can jog myself. I felt relieved, knowing Mommy is healthy enough to jog that far. I am very afraid, there is nothing I can do with myself. Everything must depend on luck.
+				
+				<br><br>I spent the morning listening to Ideal And The Real, an addictively philosophical soundtrack from Persona 5. It’s Maruki’s theme, and I got interested in it after viewing the Actualisation Ending, which is considered a comparably-bad ending for the game. I wonder though, if some higher being approaches me with an offer to fix everything in my life, to fix every problem in everyone’s lives, to make sure everyone is granted their greatest wishes, to make sure no one is with any kind of worry…would I take it? My family would have no memories of my mental disorder and not even I would remember it myself; I would be a normal boy with a normal routine, a good son and a responsible brother; I would be attending online classes, going out for a jog every evening before having quick showers and then eating dinner at the table with everyone, spending the rest of the night watching the television on the couch. Everyone would be so happy. Everyone else in the world would have their own problems neutralised, their burdens lifted, their situations resolved. I wonder. I hope I am never met with this offer, because I sure as hell know I will make the wrong choice.
+				
+				<br><br>The comment section has chunks of gold like always: 
+				<br>[------ Hey, stop crying. Why are you crying? Look at them. They're all happy. Everyone's living their own happy endings all together. So what's wrong? This is what you wanted, right? Isn't it? No more sadness. No more pain. No more cruelty. Just the result you wanted... ...so why doesn't it feel right? Why do you feel so...empty? Did they not earn this paradise, after all they went through? You did the right thing...didn't you? Though maybe you didn’t, but don’t fret, it’s too late anyway. ------] 
+				
+				<br><br>I spent half an hour trying to find a website where I could watch Violet Evergarden with a good volume, but it was the same everywhere. I decided to watch it anyway, and then when the month’s 13th comes I would watch it again on Netflix. At multiple parts, I cried my eyes out. It was a great feeling, though I have to keep checking my doorway to make sure no one was there to observe me. On the surface, the message is kind of 'life is short, express what you can', but my understanding of the movie and the series in its entirety is how distracted most of us are by the time we have left. We always think that we could wait to communicate better with the people we care about. We prefer to wait for time to give us the right moment. Time, however, does not always comply. Possible scenarios of my future pile up in the back of my head then, and I had to be afraid again. Time…Time…
+				
+				<br><br>Yi Ming browsed through the code I wrote for The Vignettes, and suggested Bootstrap when I revealed I had trouble making the website mobile-friendly. I voice-chatted with Jie Yu, and she just had to go and ask the difficult questions. I told her that this period of Covid is the best time to do nothing, to mess up, and she told me that many other people are using the period to improve themselves instead. I could say nothing back, because I don’t feel comfortable enough to let another person know of my true opinions and true plans. But I am so worried. This never ends.
+				
+				<br><br>I made a music bot with the tutorial Yi Ming suggested I take a look at, and it really is not that difficult. Video calls with Grandpa and Grandma can be more entertaining for them now, since Grandpa loves to share the songs he like whenever we chat. I will tell them about it tomorrow.
+				</p><br><br><br>
+				
+				<p>
+				<b><u>Monday, 4th October 2021</u></b><br>
+				Mommy bought ramen for my brunch, and it was really good, though I had to eat it out of a bowl from my bed. The shower ritual was forcibly smooth, almost going haywire at the first phase, and ending the same way as two days ago, with a piece of something on the bloody floor when I was about to finally exit the toilet.
+				
+				<br><br>I video-called Grandpa and Grandma, wanting to show them the music-bot I made for our convenient music-sharing sessions. I made an additional Discord account and all too. Alas, the bloody verification process took too long, and I could not help Grandpa because I wasn’t able to see his screen from here. We scheduled do finish it tomorrow.
+				
+				<br><br>A motion suddenly appeared out of bloody nowhere, and tomorrow is ruined. I had to spend the rest of the night lying down to prevent the motion from kicking in fully. An almost-amazing day gone terribly sour. 
+				</p><br><br><br>
+				
+				<p>
+				<b><u>Tuesday, 5th October 2021</u></b><br>
+				
+				Having motion in my belly and definitely in no mood for a video chat, I rescheduled with Yao Ming to tomorrow afternoon by lying that my Wi-Fi was red and down. I ate ramen again, risking the possibility that it could have been the main factor that gave me a motion-hold last time. The first phase of the shower ritual went smoothly and a bloody insect just had to make its appearance right in front of my face. Despite my efforts to level out my ritual duration, it still took eight hours for me to finally finish, which made zero sense with how fast the time sped up. Bloody hell. I had to cancel my video-call session with Grandpa and Grandma.
+				
+				<br><br>I rewatched Bo Burnham’s Inside with Yi Ming at night, he said it was really good, and I got a proper revision of what I liked about the comedy special too. I had to cut our session short, excusing myself by saying that Dyllon was already asleep, when in truth my bladder has mysteriously filled up and I had to sleep before the day could turn a huge turn for the worst. The Heavens have no short of disgusting surprises.
+				</p><br><br><br>
+				
+				<p>
+				<b><u>Wednesday, 6th October 2021</u></b><br>
+				
+				Watched the first episode of Hospital Playlist with Yao Ming as promised, and I learned that K-drama has its charms. The show also reminded me of how emotionally hard it must be for Papa as a doctor. An overfilled bladder led to an early shower, which jeopardised Mommy’s plans to feed Mitch, because Papa had two OTs and would be very tired. Alas, I am an asshole that ruins everything.
+				
+				<br><br>I managed to salvage the day by successfully getting Grandpa and Grandma into my Discord server. Somehow, Grandpa managed to create his own account without any fuss, contrary to my expectations. My decision to make an account for them proved to be fussier, and we laughed about that realisation. Yet we could not listen to music together yet, for I am clueless as to how I could get them to lower their volume by themselves so that we could comfortably chat while the music is playing in the background. Why do my ideas always lead to messes?
+				</p><br><br><br>
+				
+				<p>
+				<b><u>Thursday, 7th October 2021</u></b><br>
+				
+				Not unexpected, an insect hijacked an almost-smooth ritual, though I took the chance to cut my toenails, and another nail-cutter was sacrificed. As a long time was spent on the toilet, some leftover motion was dispensed, and I wondered if the timeline was better with that bloody insect intruding on my frail anxiety. If I had smoothly gone through the first phase, I would have been quicker to leave the toilet to enter the shower, and I would then have leftover motion still inside my belly. Did the Heavens have to interfere? Was it for the better? Screw them anyway.
+				
+				<br><br>Mommy made a great set of tiny croissant-shaped bread, which is my top favourite. Fresh and soft, the container went empty in a short ten minutes.
+				</p><br><br><br>
+				
+				<p>
+				<b><u>Friday, 8th October 2021</u></b><br>
+				
+				I got up early before nodding off, waking up again to Grandpa asking me to choose between a grey phone and a white phone. Not wanting to discuss the subject over a crappy connection-line, I gave them an answer they want to hear before asking Mommy to tell them to cancel their decision. I explained to them at night that it was too risky to purchase a phone by themselves without the aid of Papa or Mommy, as any mistake they do would lead to me not using the phone at all. The actual reason is more complicated, and I do not want to think about it. I do not need a phone.
+				
+				<br><br>Yesterday’s bread was a little hard tonight. Reality can be so annoying.
+				</p><br><br><br>
+				
+			</div>						
+		</div>
+	</div>
+	
+	
+	
+	
+	<!-- -----------------------------------------------------------------------------------------------------------------------------------------------------
+
 	<div class="boxPullPrompt" style="border: 5px grey groove" onmouseover="expand(60)" onmouseout="contract(60, 'black')"></div>
 	
 	<div class="box" style="border: 5px grey groove" id="expander[60]">
 	
 	</div>
 	
-	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
 	
 	<div style="width: 39%; margin-left: auto; display: grid; grid-template-columns: 550px 20px; grid-column-gap: 4px;">
 		<div class="box" id="expander[61]" style="margin-left: auto; border: 5px grey groove"></div>
@@ -772,18 +887,7 @@
 		<div class="boxPushPrompt" onmouseover="expand(61)" onmouseout="contract(61, 'black')" style="border: 5px grey groove"></div>		
 	</div>
 		
-	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
-	
-	<div style="display: grid; grid-template-columns: 20px 550px; grid-column-gap: 8px;">
-		<div class="box" onclick="expand(62)"></div>
-			
-		<div class="box" id="expander[62]">
-									
-		</div>
-	</div>
-	
-	<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------- -->
-	
+	-->
 	
 </body>
 </html>
@@ -791,8 +895,8 @@
 <script>
 	function expand(a)
 	{
-		document.getElementById("expander[" + a + "]").style.height = "500vh";
-		document.getElementById("expander[" + a + "]").style.width = "500vw";
+		document.getElementById("expander[" + a + "]").style.height = "500px";
+		document.getElementById("expander[" + a + "]").style.width = "500px";
 		
 		var readOut = document.getElementById("readIn[" + a + "]").innerHTML;
 		document.getElementById("expander[" + a + "]").innerHTML = "<div style=\"margin: 20px; text-align: justify;\">" + readOut + "</div>";
@@ -804,12 +908,21 @@
 		
 		for(i=0; i<b; i++)
 		{
-			document.getElementById("expander[" + a + "][" + i + "]").style.height = "500vh";
-			document.getElementById("expander[" + a + "][" + i + "]").style.width = "500vw";
+			document.getElementById("expander[" + a + "][" + i + "]").style.height = "500px";
+			document.getElementById("expander[" + a + "][" + i + "]").style.width = "500px";
 			
 			readOut = document.getElementById("readIn[" + a + "][" + i + "]").innerHTML;
 			document.getElementById("expander[" + a + "][" + i + "]").innerHTML = "<div style=\"margin: 20px; text-align: justify;\">" + readOut + "</div>";
 		}
+	}
+	
+	function expandLarge(a)
+	{
+		document.getElementById("expander[" + a + "]").style.height = "3000px";
+		document.getElementById("expander[" + a + "]").style.width = "1000px";
+		
+		var readOut = document.getElementById("readIn[" + a + "]").innerHTML;
+		document.getElementById("expander[" + a + "]").innerHTML = "<div style=\"margin: 20px; text-align: justify;\">" + readOut + "</div>";
 	}
 	
 	function contract(a, b)
